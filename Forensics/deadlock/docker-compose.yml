@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  deadlock-intel:
+    build: .
+    container_name: deadlock_intel
+    ports:
+      - "9091:31337"
+    restart: always
